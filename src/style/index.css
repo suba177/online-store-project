@@ -1,0 +1,12 @@
+.active-link {
+  color: green;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.footer__inner {
+}
