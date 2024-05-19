@@ -1,3 +1,3 @@
 export default function PickUpPoint() {
-  return <div>Pick-up-point</div>;
+  return <div className="container">Pick-up-point</div>;
 }

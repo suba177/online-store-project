@@ -10,8 +10,7 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 1600px;
-  background-color: red;
+  width: 1300px;
 }
 
 .active-link {

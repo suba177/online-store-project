@@ -1,3 +1,3 @@
 export default function Coffee() {
-  return <div>Coffee</div>;
+  return <div className="container">Coffee</div>;
 }

@@ -1,3 +1,3 @@
 export default function Combos() {
-  return <div>Combos</div>;
+  return <div className="container">Combos</div>;
 }

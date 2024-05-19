@@ -1,3 +1,3 @@
 export default function Sauces() {
-  return <div>Sauces</div>;
+  return <div className="container">Sauces</div>;
 }

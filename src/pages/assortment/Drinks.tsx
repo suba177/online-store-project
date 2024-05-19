@@ -1,3 +1,3 @@
 export default function Drinks() {
-  return <div>Drinks</div>;
+  return <div className="container">Drinks</div>;
 }

@@ -1,3 +1,3 @@
 export default function Desserts() {
-  return <div>Desserts</div>;
+  return <div className="container">Desserts</div>;
 }

@@ -1,3 +1,3 @@
 export default function Coctails() {
-  return <div>Coctails</div>;
+  return <div className="container">Coctails</div>;
 }
