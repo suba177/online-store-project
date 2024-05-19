@@ -1,12 +1,19 @@
+body {
+  font-family: "Noto Sans HK", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1600px;
+  background-color: red;
+}
+
 .active-link {
-  color: green;
+  color: white;
 }
 
 .footer {
   position: absolute;
   bottom: 0;
   left: 0;
-}
-
-.footer__inner {
 }
