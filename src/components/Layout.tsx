@@ -5,10 +5,10 @@ import Header from "../pages/Header";
 export default function Layout() {
   return (
     <>
-      <header>
+      <header className="header">
         <Header />
       </header>
-      <main>
+      <main className="main">
         <Outlet />
       </main>
       <footer className="footer">

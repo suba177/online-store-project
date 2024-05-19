@@ -4,7 +4,7 @@ export default function Footer() {
   const setActive = ({ isActive }) => (isActive ? "active-link" : "");
 
   return (
-    <div className="footer__inner">
+    <div className="container">
       <NavLink to="/howtobuy" className={setActive}>
         Как купить
       </NavLink>
