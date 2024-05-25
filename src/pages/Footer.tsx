@@ -1,5 +1,5 @@
-import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
+import { Stack } from "@mui/material";
 import Container from "@mui/material/Container";
 import { NavLink } from "react-router-dom";
 
@@ -7,7 +7,7 @@ export default function Footer() {
   const setActive = ({ isActive }) => (isActive ? "active-link" : "");
 
   return (
-    <Box>
+    <Stack>
       <Container>
         <Typography variant="body1">
           <NavLink to="/howtobuy" className={setActive}>
@@ -24,6 +24,6 @@ export default function Footer() {
           </NavLink>
         </Typography>
       </Container>
-    </Box>
+    </Stack>
   );
 }

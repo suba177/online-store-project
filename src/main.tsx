@@ -6,8 +6,8 @@ import { BrowserRouter } from "react-router-dom";
 // JS
 import App from "./components/App.tsx";
 // STYLES
-import "./style/index.css";
 import "./style/reset.css";
+import "./style/index.css";
 // REDUX
 import { Provider } from "react-redux";
 import { configureStore } from "@reduxjs/toolkit";
@@ -16,7 +16,7 @@ import { thunk } from "redux-thunk";
 import { applyMiddleware } from "@reduxjs/toolkit";
 import { storeReducer } from "./components/storeReducer.tsx";
 // MUI
-import { ThemeProvider, createTheme } from "@mui/material";
+import { ThemeProvider, createTheme } from "@mui/material/styles";
 //
 // CODE
 export const store = configureStore(
