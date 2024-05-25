@@ -4,16 +4,22 @@ import Header from "../pages/Header";
 
 export default function Layout() {
   return (
-    <>
-      <header className="header">
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        minHeight: "100vh",
+      }}
+    >
+      <header>
         <Header />
       </header>
-      <main className="main">
+      <main>
         <Outlet />
       </main>
-      <footer className="footer">
+      <footer style={{ marginTop: "auto" }}>
         <Footer />
       </footer>
-    </>
+    </div>
   );
 }

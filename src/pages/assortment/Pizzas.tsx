@@ -1,15 +1,12 @@
+import GoodsList from "../../components/GoodsList";
 import { goods } from "../../data/goods";
+import { useState } from "react";
 
 export default function Pizzas() {
+  const [products, setProducts] = useState(goods);
   return (
     <div className="container">
-      {goods.map((item) => (
-        <img
-          key={item.id}
-          style={{ width: "200px", height: "200px" }}
-          src={item.poster}
-        />
-      ))}
+      <GoodsList goods={products} />
     </div>
   );
 }
